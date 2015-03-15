@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/news-ear/news-ear.iml" filepath="$PROJECT_DIR$/news-ear/news-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/news-ejb/news-ejb.iml" filepath="$PROJECT_DIR$/news-ejb/news-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/news-ejb-api/news-ejb-api.iml" filepath="$PROJECT_DIR$/news-ejb-api/news-ejb-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/news-entity/news-entity.iml" filepath="$PROJECT_DIR$/news-entity/news-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/news-model/news-model.iml" filepath="$PROJECT_DIR$/news-model/news-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/news-service-client/news-service-client.iml" filepath="$PROJECT_DIR$/news-service-client/news-service-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/news-web/news-web.iml" filepath="$PROJECT_DIR$/news-web/news-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/news2.iml" filepath="$PROJECT_DIR$/news2.iml" />
+    </modules>
+  </component>
+</project>

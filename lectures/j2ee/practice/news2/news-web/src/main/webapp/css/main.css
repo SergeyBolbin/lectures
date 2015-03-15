@@ -1,0 +1,33 @@
+body{
+    font-size: 12pt;
+    color: black;
+    font-family: Lucida;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+}
+
+.news_header {
+    color: #4D87BB;
+    font-size: 14pt;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.news_content {
+    padding: 5px;
+    padding-bottom: 20px;
+}
+
+.topics {
+    background-color: #F2F2F2;
+    padding: 10px;
+}
+.topics a{
+    color: #4D87BB;
+    font-size: 14pt;
+}
+
+

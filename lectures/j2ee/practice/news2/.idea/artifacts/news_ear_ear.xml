@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="news-ear:ear">
+    <output-path>$PROJECT_DIR$/news-ear/target</output-path>
+    <root id="archive" name="news-ear-1.0-SNAPSHOT.ear">
+      <element id="artifact" artifact-name="news-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

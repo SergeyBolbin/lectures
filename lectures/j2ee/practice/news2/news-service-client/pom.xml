@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>news</artifactId>
+        <groupId>com.practice.news</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>news-service-client</artifactId>
+
+    <build>
+        <plugins>
+            <!-- JAXWS maven plugin for generation SOAP classes by web service wsdl.-->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxws-maven-plugin</artifactId>
+                <version>1.12</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>wsimport</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <!--WSDL URL. -->
+                    <wsdlUrls>
+                        <wsdlUrl>http://localhost:8080/news-web/NewsService?wsdl</wsdlUrl>
+                    </wsdlUrls>
+                    <!-- The package in which the source files will be generated. -->
+                    <packageName>com.practice.news.soap.generated</packageName>
+                    <!-- source project dir-->
+                    <sourceDestDir>${basedir}/src/main/java</sourceDestDir>
+                    <sei/>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
